@@ -1,6 +1,6 @@
 # System Flow for tripleC (CCTV)
 
-'''flow
+```flow
 db=>start: DB WHITELIST
 st=>start: START
 in=>start: INPUT(Home CCTV Video)
@@ -16,7 +16,7 @@ frcond=>condition: Insider or Outsider
 allcond=>condition: Yes or No
 
 e=>end: END
-
+```
 db->st->in->fr
 frcond(Insider)->log->fr
 frcond(Outsider)->fr
