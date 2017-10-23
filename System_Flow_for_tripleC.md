@@ -1,6 +1,6 @@
 # System Flow for tripleC 
 
-
+##### open the flowchart md file with markdown language editor like Typora 
 
 #### Home CCTV flowchart
 
