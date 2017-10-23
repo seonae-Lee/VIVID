@@ -32,9 +32,6 @@ frcond(no)->send->fr
 ```
 
 
-
-
-
 #### Central Control Server flowchart
 
 ```flow
@@ -53,6 +50,7 @@ server->input->dp->rcv->cond
 cond(yes)->log&db->dp
 cond(no)->delcctv->rcv
 ```
+
 
 #### Other CCTV flowchart
 
