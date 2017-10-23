@@ -1,6 +1,6 @@
 # System Flow for tripleC (CCTV)
 
-***flow
+```flow
 db=>start: DB WHITELIST
 st=>start: START
 in=>start: INPUT(Home CCTV Video)
