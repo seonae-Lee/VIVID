@@ -25,10 +25,6 @@ e=>end: END
 db->home->in->fr->frcond
 frcond(yes)->fr
 frcond(no)->send->fr
-
-
-
-
 ```
 
 
